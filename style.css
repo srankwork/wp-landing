@@ -33559,3 +33559,53 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+
+#whatsapp-integration {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  color: #fff;
+}
+
+.green-box {
+  background-color:	#075e54;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+
+.random-lines {
+  position: center;
+  
+ color: #fff;
+}
+
+
+.random-lines1{
+  size: 26px;
+  font-weight: bold;
+}
+
+.line:nth-child(1) {
+  top: 25%;
+}
+
+.line:nth-child(2) {
+  top: 75%;
+}
+
+.icons-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  margin: 0 5px;
+}
+
+
