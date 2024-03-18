@@ -33562,14 +33562,17 @@ body.dark {
 
 
 #whatsapp-integration {
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
   text-align: center;
   color: #fff;
 }
 
 .green-box {
+  width: 80%;
   background-color:	#075e54;
+  padding: 10px 20px;
+  border-radius: 12px;
   color: #fff;
   padding: 20px;
   display: inline-block;
@@ -33577,8 +33580,7 @@ body.dark {
 
 .random-lines {
   position: center;
-  
- color: #fff;
+  color: #fff;
 }
 
 
@@ -33598,14 +33600,12 @@ body.dark {
 .icons-line {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 }
 
 .icon {
-  width: 100px;
-  height: 40px;
+  width:20%;
   background-color: white;
-  margin: 0 5px;
+  margin: 10px 5px;
 }
 
 
