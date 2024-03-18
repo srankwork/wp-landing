@@ -13646,7 +13646,6 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   margin: var(--cnvs-section-margin) 0;
-  padding: var(--cnvs-section-padding) 0;
   background-color: var(--cnvs-section-bg);
   overflow: hidden;
 }
@@ -33569,12 +33568,11 @@ body.dark {
 }
 
 .green-box {
-  width: 80%;
+  width: 90%;
   background-color:	#075e54;
-  padding: 10px 20px;
+  padding: 40px 25px;
   border-radius: 12px;
   color: #fff;
-  padding: 20px;
   display: inline-block;
 }
 
@@ -33604,8 +33602,73 @@ body.dark {
 
 .icon {
   width:20%;
+  border-radius: 4px;
   background-color: white;
   margin: 10px 5px;
 }
 
 
+
+
+
+.carousel-container1 {
+  width: 90vw;
+  height: 100%;
+  /* Adjust the width as needed */
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.carousel1 {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel1 div {
+  width: 90vw;
+}
+
+.carousel1 div>img {
+  width: -webkit-fill-available !important;
+  width: fit-content !important;
+  max-width: 100%;
+}
+
+
+.prev1,
+.next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  color: #fff;
+}
+
+.prev1 {
+  left: 10px;
+}
+
+.next1 {
+  right: 10px;
+}
+
+
+video {
+  width: 80vw;
+  height:60vh;
+}
+
+
+@media (max-width: 700px) {
+  .logo-default{
+    height: 70px !important;
+  }
+}
+
+
+thead, tbody, tfoot, tr, td, th {
+  border: 1px solid #0000000a;
+  padding: 6px 6px;
+}

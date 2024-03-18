@@ -11,7 +11,7 @@
 	--cnvs-themecolor-rgb: 62, 69, 235;
 	--cnvs-gradient-color: linear-gradient(to right, #f6955c, #f23457);
 
-	--cnvs-body-image: url('images/new/blur-bg.png');
+	--cnvs-body-image: url('images/home-banner.webp');
 
 	--cnvs-saas-color-1: #FFF7EF;
 	--cnvs-saas-color-2: #F9FAF6;
@@ -78,13 +78,27 @@
 	--cnvs-primary-menu-font: var(--cnvs-body-font);
 }
 
+#slider{
+	/* position: relative; */
+}
+
 #wrapper {
 	background: var(--cnvs-body-bg);
 	background-image: var(--cnvs-body-image);
-	background-repeat: repeat-y;
+	/* background-repeat: repeat-y; */
 	background-position: center top;
-	background-size: 100% auto;
+	/* background-size: 100% auto; */
 }
+
+/* .overlay-wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 0; 
+} */
 
 
 /* Swiper Tabs */
