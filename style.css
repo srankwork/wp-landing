@@ -13615,6 +13615,8 @@ textarea.form-control-lg {
     width: 20%;
   }
 }
+
+
 #wrapper {
   position: relative;
   float: none;
@@ -33603,7 +33605,6 @@ body.dark {
 .icon {
   width:20%;
   border-radius: 4px;
-  background-color: white;
   margin: 10px 5px;
 }
 
