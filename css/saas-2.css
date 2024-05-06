@@ -11,7 +11,7 @@
   --cnvs-themecolor-rgb: 62, 69, 235;
   --cnvs-gradient-color: linear-gradient(to right, #f6955c, #f23457);
 
-  --cnvs-body-image: url('/assets/images/home-banner.webp');
+  --cnvs-body-image: url('../assets/images/home-banner.webp');
 
   --cnvs-saas-color-1: #fff7ef;
   --cnvs-saas-color-2: #f9faf6;
